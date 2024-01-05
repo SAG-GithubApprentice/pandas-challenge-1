@@ -6,6 +6,9 @@ Client Dataset Analysis
     Overview:
         This Python script performs an analysis of a client dataset using Pandas Library. The dataset includes information about clients, orders, items, and costs. The analysis covers data cleaning, column renaming, and the creation of additional columns for insights into spending, shipping costs, and profits.
 
+    Summary:
+        In this analysis of the client dataset, I transformed the data by renaming columns for clarity and calculating additional metrics like line subtotals, shipping prices, and total profits. I confirmed the accuracy of my calculations against provided receipts. I identified key insights, including the top 5 clients' total spending, shipping costs, revenues, and profits, and presented the results in a clear manner.
+
 Key Operations
 
     Data Cleaning and Exploration:
@@ -35,13 +38,6 @@ Key Operations
     Sorting and Presentation
         Sorted the summary data by total profit in descending order.
         Displayed the final summary DataFrame.
-
-Usage
-
-    To reproduce the analysis:
-        Ensure the pandas library is installed.
-        Import the dataset.
-        Execute the provided Python script.
 
 Acknowledgment
 
